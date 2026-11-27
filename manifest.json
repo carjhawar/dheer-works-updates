@@ -1,0 +1,10 @@
+{
+ "version": "0.13.1",
+ "released": "2026-11-27",
+ "notes": "The app can now update itself: More > Updates > Check for updates.",
+ "windows_amd64": {
+  "url": "https://raw.githubusercontent.com/carjhawar/dheer-works-updates/main/DheerWorks-0.13.1.exe",
+  "sha256": "4691b064a5401bca45498db438233f1b9e1b0d16f3c07d6bc470e71cf9b300b7",
+  "size": 8338432
+ }
+}
