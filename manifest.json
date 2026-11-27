@@ -1,10 +1,10 @@
 {
- "version": "0.13.2",
+ "version": "0.14.0",
  "released": "2026-11-27",
- "notes": "Payments and Stock open again; the app finds the way your Tally sends its bills; long lists are quick",
+ "notes": "Tap any figure to see the entries behind it; ledgers, stock item movements, Day Book and registers in the new Books tab",
  "windows_amd64": {
-  "url": "https://raw.githubusercontent.com/carjhawar/dheer-works-updates/main/DheerWorks-0.13.2.exe",
-  "sha256": "3d10a74643577bd17184bc5dbe6fede2d395e086d740a8d9fef9eaf5c3f60614",
-  "size": 8363008
+  "url": "https://raw.githubusercontent.com/carjhawar/dheer-works-updates/main/DheerWorks-0.14.0.exe",
+  "sha256": "ca4a52b5a2e59412abd075dd4d1f7d5dabe2c803e33e901ddc42ff2f29059bf0",
+  "size": 8539648
  }
 }
