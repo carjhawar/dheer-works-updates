@@ -664,7 +664,12 @@ async function sbGet(path) {
   if (!r.ok) throw new Error('The store said ' + r.status);
   return r;
 }
-async function gunzipText(r) { return await new Response(r.body.pipeThrough(new DecompressionStream('gzip'))).text(); }
+// the files are gzip; if anything on the way already unpacked them, read them as they are
+async function gunzipText(r) {
+  const buf = new Uint8Array(await r.arrayBuffer());
+  if (buf[0] !== 0x1f || buf[1] !== 0x8b) return new TextDecoder().decode(buf);
+  return await new Response(new Blob([buf]).stream().pipeThrough(new DecompressionStream('gzip'))).text();
+}
 let wasmP = null;
 function wasmReady() {
   if (!wasmP) wasmP = new Promise((res, rej) => {

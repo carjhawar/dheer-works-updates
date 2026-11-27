@@ -1,10 +1,10 @@
 {
- "version": "0.15.0",
+ "version": "0.16.0",
  "released": "2026-11-27",
- "notes": "Stock used in journals no longer shows as unused; Remove for stuck stock and money; each bill's own due date; pro forma filled from Tally; ledger PDF, print and WhatsApp",
+ "notes": "See your figures at home on your Mac: More > See it from home. Read only, private to you.",
  "windows_amd64": {
-  "url": "https://raw.githubusercontent.com/carjhawar/dheer-works-updates/main/DheerWorks-0.15.0.exe",
-  "sha256": "29d77517952c1da9c83ad1689c248ae03e74c819ca9b38ad825ddcce148861a5",
-  "size": 8638976
+  "url": "https://raw.githubusercontent.com/carjhawar/dheer-works-updates/main/DheerWorks-0.16.0.exe",
+  "sha256": "d5b64e031516666fa9d1c00e1f0fb04517d41b30d45d7db80a98a613ac724614",
+  "size": 8706560
  }
 }
