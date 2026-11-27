@@ -1,10 +1,10 @@
 {
- "version": "0.14.0",
+ "version": "0.14.1",
  "released": "2026-11-27",
- "notes": "Tap any figure to see the entries behind it; ledgers, stock item movements, Day Book and registers in the new Books tab",
+ "notes": "Sales were counted twice for most bills on some Tally set-ups: fixed. Every month's sales are now checked against Tally's own, and Home says plainly if anything differs",
  "windows_amd64": {
-  "url": "https://raw.githubusercontent.com/carjhawar/dheer-works-updates/main/DheerWorks-0.14.0.exe",
-  "sha256": "ca4a52b5a2e59412abd075dd4d1f7d5dabe2c803e33e901ddc42ff2f29059bf0",
-  "size": 8539648
+  "url": "https://raw.githubusercontent.com/carjhawar/dheer-works-updates/main/DheerWorks-0.14.1.exe",
+  "sha256": "ab587aede911fdcfabea0fcdc85e17f8216652eb5c5bc392fd5e2c9e6c8c6144",
+  "size": 8563200
  }
 }
