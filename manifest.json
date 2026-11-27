@@ -1,10 +1,10 @@
 {
- "version": "0.13.1",
+ "version": "0.13.2",
  "released": "2026-11-27",
- "notes": "The app can now update itself: More > Updates > Check for updates.",
+ "notes": "Payments and Stock open again; the app finds the way your Tally sends its bills; long lists are quick",
  "windows_amd64": {
-  "url": "https://raw.githubusercontent.com/carjhawar/dheer-works-updates/main/DheerWorks-0.13.1.exe",
-  "sha256": "4691b064a5401bca45498db438233f1b9e1b0d16f3c07d6bc470e71cf9b300b7",
-  "size": 8338432
+  "url": "https://raw.githubusercontent.com/carjhawar/dheer-works-updates/main/DheerWorks-0.13.2.exe",
+  "sha256": "3d10a74643577bd17184bc5dbe6fede2d395e086d740a8d9fef9eaf5c3f60614",
+  "size": 8363008
  }
 }
