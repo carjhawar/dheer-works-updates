@@ -1,10 +1,10 @@
 {
- "version": "0.14.1",
+ "version": "0.15.0",
  "released": "2026-11-27",
- "notes": "Sales were counted twice for most bills on some Tally set-ups: fixed. Every month's sales are now checked against Tally's own, and Home says plainly if anything differs",
+ "notes": "Stock used in journals no longer shows as unused; Remove for stuck stock and money; each bill's own due date; pro forma filled from Tally; ledger PDF, print and WhatsApp",
  "windows_amd64": {
-  "url": "https://raw.githubusercontent.com/carjhawar/dheer-works-updates/main/DheerWorks-0.14.1.exe",
-  "sha256": "ab587aede911fdcfabea0fcdc85e17f8216652eb5c5bc392fd5e2c9e6c8c6144",
-  "size": 8563200
+  "url": "https://raw.githubusercontent.com/carjhawar/dheer-works-updates/main/DheerWorks-0.15.0.exe",
+  "sha256": "29d77517952c1da9c83ad1689c248ae03e74c819ca9b38ad825ddcce148861a5",
+  "size": 8638976
  }
 }
